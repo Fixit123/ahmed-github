@@ -1,0 +1,14 @@
+h2 {
+    color: blue;
+}
+body {
+    background: url(R.jpg);
+}
+table thead {
+    color: brown;
+}
+p {
+    color: black;
+    text-decoration: line-through;
+}
+

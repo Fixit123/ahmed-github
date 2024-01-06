@@ -1,0 +1,9 @@
+body {
+    background: url(Rooftop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+div a {
+    color: rgb(0, 255, 255);
+}

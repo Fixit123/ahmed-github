@@ -40,3 +40,16 @@ header p {
 .takeoff {
     list-style:none;
 }
+body {
+    background: url(R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-width: thin;
+}
+span {
+    color: blue;
+}
+h3 {
+    margin-left: 100px ;
+}
