@@ -2,8 +2,55 @@ body {
     background: url(Rooftop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
 }
 div a {
     color: rgb(0, 255, 255);
+}
+.signup {
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 450px;
+    margin: auto;
+}
+form {
+    width: 240px;
+    text-align: center;
+    margin-top: -10;
+    cursor: pointer;
+}
+
+input:focus{
+background-color:rgb(186, 184, 180);
+}
+
+input {
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px 0;   
+    transition: border 0.5s;
+    outline: none;
+    height: 10px;
+    }
+    div h2 {
+        color: yellow;
+    }
+button:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+  background-color: black;
+  transition: 0.8s;
+  opacity: 0.6;
+}
+a:hover{
+ color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
 }
