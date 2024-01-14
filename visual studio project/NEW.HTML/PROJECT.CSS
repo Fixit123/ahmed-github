@@ -37,6 +37,7 @@ input {
     transition: border 0.5s;
     outline: none;
     height: 10px;
+    color: white;
     }
     div h2 {
         color: yellow;
@@ -53,4 +54,17 @@ a:hover{
  color: orangered;
   font-weight: bold;
   text-decoration: underline dotted orangered;
+}
+button {
+    width: 190px;
+    padding: 10px;0;
+    border:none;
+    font-size:20px;
+    line-height:25px;
+    border-radius:25px;
+}
+
+::placeholder {
+    color: whitesmoke;
+    opacity: 0.7;
 }
