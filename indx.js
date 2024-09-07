@@ -15,26 +15,12 @@ server.listen(3000, () => {
 
     //new task for requesthandler
 
-/*const http = require('http');
+const http = require('http');
 const handleRequest = require('./requestHandler');
 
 const server = http.createServer(handleRequest);
 
 server.listen(3000, () => {
     console.log('Server running at http://localhost:3000/');
-}); */
-
-
- // axios package
-
-
- const axios = require('axios');
-
-axios.get('https://jsonplaceholder.typicode.com/posts')
-    .then(response => {
-        console.log(response.data);
-    })
-    .catch(error => {
-        console.error('Error fetching data:', error);
-    });
+});
 
