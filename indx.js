@@ -55,7 +55,8 @@ async function fetchData() {
 fetchData();   */
 
     //EVENT EMITTER
-    const http = require('http');
+  
+    /* const http = require('http');
 const EventEmitter = require('events');
 const handleRequest = require('./requestHandler');
 
@@ -73,6 +74,6 @@ const server = http.createServer((req, res) => {
 
 server.listen(3000, () => {
     console.log('Server running at http://localhost:3000/');
-});
+});     */
 
 
