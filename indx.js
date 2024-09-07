@@ -28,7 +28,7 @@ server.listen(3000, () => {
  // axios package
 
 
- /*const axios = require('axios');
+ const axios = require('axios');
 
 axios.get('https://jsonplaceholder.typicode.com/posts')
     .then(response => {
@@ -36,21 +36,5 @@ axios.get('https://jsonplaceholder.typicode.com/posts')
     })
     .catch(error => {
         console.error('Error fetching data:', error);
-    }); */
-
-
-        //ASYNC/AWAIT
-
-        const axios = require('axios');
-
-async function fetchData() {
-    try {
-        const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
-        console.log(response.data);
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    }
-}
-
-fetchData();
+    });
 
