@@ -41,7 +41,7 @@ axios.get('https://jsonplaceholder.typicode.com/posts')
 
         //ASYNC/AWAIT
 
-        /*const axios = require('axios');
+        const axios = require('axios');
 
 async function fetchData() {
     try {
@@ -52,27 +52,5 @@ async function fetchData() {
     }
 }
 
-fetchData();   */
-
-    //EVENT EMITTER
-    const http = require('http');
-const EventEmitter = require('events');
-const handleRequest = require('./requestHandler');
-
-class MyEmitter extends EventEmitter {}
-const myEmitter = new MyEmitter();
-
-myEmitter.on('requestReceived', () => {
-    console.log('Request received at server');
-});
-
-const server = http.createServer((req, res) => {
-    myEmitter.emit('requestReceived');
-    handleRequest(req, res);
-});
-
-server.listen(3000, () => {
-    console.log('Server running at http://localhost:3000/');
-});
-
+fetchData();
 
